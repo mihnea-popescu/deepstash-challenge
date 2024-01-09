@@ -23,7 +23,7 @@ const SearchPeopleFilters = ({filters, setFilters} : SearchPeopleFiltersProps) =
     );
 
   return (
-    <View className='w-100 mx-10 mb-5 flex flex-row'>
+    <View className='w-100 mb-5 flex flex-row'>
         <BouncyCheckbox 
             onPress={checked => changeFilter('requireBio', checked)}
             size={25}

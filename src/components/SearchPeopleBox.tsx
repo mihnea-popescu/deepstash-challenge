@@ -14,7 +14,7 @@ const SearchPeopleBox = ({keyword, setKeyword} : SearchPeopleBoxProps) => {
         value={keyword}
         placeholder='Search for a person...'
         placeholderTextColor={"#fff"}
-        className='w-100 h-15 p-4 border mx-10 my-5'
+        className='w-100 h-15 p-4 border my-5'
     />
   )
 }
